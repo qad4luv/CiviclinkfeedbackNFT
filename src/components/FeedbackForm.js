@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 
-const CONTRACT_ADDRESS = "0x6596b78691E5844337ADbD8C521f0cA8ae7320180x"; // Replace this
+const CONTRACT_ADDRESS = "0x7828AC6ED93fc08bED9a4ac87ACd8212EDD7D1CE"; // Replace this
 const CONTRACT_ABI = [
     "function submitFeedback(string calldata _message) external",
     "function login() public view returns (bool)",
